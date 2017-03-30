@@ -14,10 +14,7 @@
            fetch="."
            revision="refs/heads/s5p4418-lollipop-mr1" />
 
-  <remote  name="private"
-           fetch="ssh://git@github.com" />
-
-  <default revision="refs/heads/cm-12.1"
+    <default revision="refs/heads/cm-12.1"
            remote="github"
            sync-c="true"
            sync-j="4" />
